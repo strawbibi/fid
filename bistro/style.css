@@ -194,3 +194,7 @@ footer img {
   width: 44px;
   height: 44px;
 }
+/* Menu Page Specific Styles */
+body.menu-page dt {
+    color: darkolivegreen;
+}
