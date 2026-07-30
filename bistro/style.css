@@ -174,3 +174,16 @@ article small {
     margin-top: -8px;
     margin-bottom: 12px;
 }
+footer img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 0;
+}
