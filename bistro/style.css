@@ -187,3 +187,15 @@ footer ul {
   gap: 16px;
   padding: 0;
 }
+main h2, main h3 {
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer img {
+  width: 44px;
+  height: 44px;
+}
