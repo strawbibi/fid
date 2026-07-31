@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t3 d3">
+  <title id="t3">Event Poster: Summer Jazz Night</title>
+  <desc id="d3">An illustrated poster with a sunset gradient, a saxophone silhouette, and event text.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff7e5f"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sunset)"/>
+  <circle cx="400" cy="230" r="110" fill="#ffe29a" opacity="0.9"/>
+  <rect x="0" y="440" width="800" height="160" fill="#1b1030"/>
+  <path d="M330 400 q40 -60 90 -40 q30 10 20 40 q-10 30 -50 30 q60 20 40 60 q-15 30 -55 10 q-30 -15 -30 -50 q-10 -30 -15 -50 z" fill="#1b1030"/>
+  <text x="400" y="500" font-family="Impact, sans-serif" font-size="52" fill="#ffe29a" text-anchor="middle">SUMMER JAZZ NIGHT</text>
+  <text x="400" y="540" font-family="Georgia, serif" font-size="22" fill="#ffffff" text-anchor="middle">August 14 • Riverside Park • 7PM</text>
+</svg>
