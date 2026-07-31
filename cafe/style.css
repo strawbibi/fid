@@ -1,0 +1,300 @@
+/* ============================================
+   Ube & Alfajor Café — Stylesheet
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', Verdana, sans-serif;
+  color: #4a2e4f;
+  background-color: #fdf6f0;
+  line-height: 1.6;
+}
+
+h1, h2, h3, nav a, .logo, footer {
+  font-family: 'Fredoka', 'Trebuchet MS', sans-serif;
+}
+
+/* ---------- Header / Nav ---------- */
+header {
+  background-color: #b58fce;
+  color: #fffdf9;
+  padding: 22px 5%;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fffdf9;
+}
+
+.tagline {
+  font-style: italic;
+  font-size: 0.95em;
+  color: #f3e2f7;
+  margin-top: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #8a5ea3;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: #fffdf9;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #f6c9dc;
+  color: #4a2e4f;
+}
+
+nav ul li a.active {
+  background-color: #d69fc7;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 70px 5%;
+  background-color: #f3e2f7;
+}
+
+.hero h1 {
+  font-size: 2.3em;
+  color: #6b3f78;
+  margin-bottom: 12px;
+}
+
+.badge {
+  position: absolute;
+  top: 18px;
+  right: 5%;
+  background-color: #f6c9dc;
+  color: #6b3f78;
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+/* ---------- Main content ---------- */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 5%;
+}
+
+main h1 {
+  color: #6b3f78;
+  border-bottom: 3px solid #f6c9dc;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+main h2 {
+  color: #8a5ea3;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+main p {
+  margin-bottom: 16px;
+}
+
+ul.menu-list, ol.steps-list {
+  margin: 10px 0 20px 30px;
+}
+
+ul.menu-list li, ol.steps-list li {
+  margin-bottom: 8px;
+}
+
+/* ---------- Card grid (menu / gallery) ---------- */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ecd9e6;
+  border-radius: 14px;
+  overflow: hidden;
+  width: 270px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  display: block;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 14px 16px;
+}
+
+.card-body h3 {
+  color: #6b3f78;
+  margin-bottom: 6px;
+}
+
+.price {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 700;
+  color: #8a5ea3;
+}
+
+/* ---------- Callout ---------- */
+.callout {
+  background-color: #f6c9dc;
+  color: #4a2e4f;
+  padding: 24px;
+  border-radius: 14px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.callout a.btn {
+  display: inline-block;
+  margin-top: 12px;
+  background-color: #6b3f78;
+  color: #fffdf9;
+  padding: 10px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.callout a.btn:hover {
+  background-color: #8a5ea3;
+}
+
+/* ---------- Table (menu / hours) ---------- */
+table.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table.info-table th, table.info-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #ecd9e6;
+}
+
+table.info-table th {
+  background-color: #f3e2f7;
+  color: #6b3f78;
+}
+
+/* ---------- Gallery ---------- */
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.gallery-grid img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+/* ---------- Contact ---------- */
+.contact-details {
+  background-color: #ffffff;
+  border-left: 5px solid #f6c9dc;
+  padding: 18px 22px;
+  margin-top: 20px;
+}
+
+.contact-details a {
+  color: #6b3f78;
+  font-weight: 600;
+}
+
+.contact-details a:hover {
+  text-decoration: none;
+  color: #f6c9dc;
+  background-color: #6b3f78;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #6b3f78;
+  color: #f3e2f7;
+  text-align: center;
+  padding: 26px 5%;
+  margin-top: 40px;
+}
+
+footer nav ul {
+  justify-content: center;
+  background-color: transparent;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+footer nav ul li a {
+  color: #f3e2f7;
+  padding: 6px 14px;
+}
+
+footer nav ul li a:hover {
+  color: #f6c9dc;
+  background-color: transparent;
+}
+
+footer p {
+  font-size: 0.85em;
+  margin-top: 6px;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .badge {
+    position: static;
+    display: inline-block;
+    margin-top: 14px;
+  }
+}
