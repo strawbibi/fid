@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Brand Identity: Peak &amp; Pine</title>
+  <desc id="d2">A geometric mountain and pine tree logo mark with wordmark, on a cream background.</desc>
+  <rect width="800" height="600" fill="#faf6ef"/>
+  <polygon points="400,150 300,350 500,350" fill="#2f4538"/>
+  <polygon points="400,150 350,350 400,350" fill="#3f5c48"/>
+  <polygon points="330,270 260,400 400,400" fill="#4a6b52"/>
+  <polygon points="470,270 540,400 400,400" fill="#3f5c48"/>
+  <rect x="390" y="400" width="20" height="40" fill="#5c4033"/>
+  <text x="400" y="490" font-family="Georgia, serif" font-size="46" fill="#2f4538" text-anchor="middle">Peak &amp; Pine</text>
+  <text x="400" y="525" font-family="Georgia, serif" font-size="18" letter-spacing="4" fill="#7a8b7d" text-anchor="middle">OUTFITTERS</text>
+</svg>
