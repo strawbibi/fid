@@ -198,3 +198,18 @@ footer img {
 body.menu-page dt {
     color: darkolivegreen;
 }
+/* Menu entree and price styling */
+body.menu-page dt {
+    color: #35471a;
+    font-weight: bold;
+}
+
+body.menu-page dt em {
+    color: darkolivegreen;
+    font-weight: normal;
+}
+
+body.menu-page .price {
+    color: #1a2f5c;
+    font-weight: bold;
+}
