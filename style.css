@@ -52,9 +52,9 @@ header h1 {
 }
 
 header p.role {
-  margin: 0 0 1rem;
+  margin: 0 0 1.1rem;
   color: var(--accent-dark);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 2px;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
@@ -82,7 +82,7 @@ header p.role {
 .social-links a {
   color: var(--accent-dark);
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: .3px;
@@ -103,7 +103,7 @@ nav a {
   color: var(--ink-deep);
   text-decoration: none;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Inter", sans-serif;
   border-bottom: 1px solid var(--accent);
   padding-bottom: 2px;
@@ -189,7 +189,7 @@ section h2 {
 
 .gallery figcaption {
   text-align: center;
-  font-size: .85rem;
+  font-size: 1rem;
   margin-top: .4rem;
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
